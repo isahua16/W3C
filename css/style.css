@@ -42,6 +42,10 @@ body {
   height: 100%;
 }
 
+.hero_section * {
+  padding: 5px;
+}
+
 .hero_section > img {
   width: 280px;
   height: 220px;
