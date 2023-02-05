@@ -40,7 +40,7 @@ body {
 .hero_section {
   display: grid;
   width: 100%;
-  height: 100%;
+  height: 80%;
   place-items: center;
   grid-template-rows: 1fr 8fr;
 }
@@ -49,14 +49,16 @@ body {
   padding-bottom: 10px;
 }
 
-#store_hours {
-  display: grid;
-  place-items: center;
-}
-
 #google_map {
   width: 100%;
   height: 100%;
+}
+
+#store_hours {
+  align-self: start;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
 }
 
 #page_footer {
