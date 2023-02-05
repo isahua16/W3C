@@ -35,9 +35,14 @@ body {
   place-items: center;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
+
 .hero_section {
   display: grid;
   place-items: center;
+}
+
+.hero_section h3 {
+  padding-bottom: 10px;
 }
 
 #store_hours {
@@ -46,6 +51,8 @@ body {
 }
 
 #google_map {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   width: 100%;
   height: 100%;
 }
