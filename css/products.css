@@ -32,13 +32,13 @@ body {
   display: grid;
   min-height: 80vh;
   place-items: center;
-  width: 80%;
+  width: 90%;
 }
 
 #product_section {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: center;
 }
 
@@ -54,8 +54,8 @@ body {
 }
 
 .product_card > img {
-  width: 200px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
   object-fit: cover;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -78,4 +78,5 @@ body {
 .footer_col a {
   text-decoration: none;
   color: #282828;
+  padding: 3px;
 }

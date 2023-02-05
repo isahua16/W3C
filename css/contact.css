@@ -33,25 +33,16 @@ body {
   min-height: 80vh;
   width: 80%;
   place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
-
 .hero_section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   place-items: center;
-  height: 100%;
 }
 
-.hero_section * {
-  padding: 5px;
-}
-
-.hero_section > img {
-  width: 280px;
-  height: 220px;
-  object-fit: cover;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+#google_map {
+  width: 70%;
+  height: 70%;
 }
 
 #page_footer {
