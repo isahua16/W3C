@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -38,7 +39,10 @@ body {
 
 .hero_section {
   display: grid;
+  width: 100%;
+  height: 100%;
   place-items: center;
+  grid-template-rows: 1fr 8fr;
 }
 
 .hero_section h3 {
@@ -51,8 +55,6 @@ body {
 }
 
 #google_map {
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   width: 100%;
   height: 100%;
 }
