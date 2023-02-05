@@ -40,9 +40,14 @@ body {
   place-items: center;
 }
 
+#store_hours {
+  display: grid;
+  place-items: center;
+}
+
 #google_map {
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
 }
 
 #page_footer {
