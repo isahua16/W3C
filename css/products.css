@@ -14,7 +14,7 @@ body {
   min-height: 10vh;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: center;
 }
 
@@ -46,7 +46,6 @@ body {
   display: grid;
   width: 100%;
   place-items: center;
-  padding: 10px;
 }
 
 .product_card * {
@@ -54,8 +53,8 @@ body {
 }
 
 .product_card > img {
-  width: 180px;
-  height: 100px;
+  width: 8vw;
+  min-width: 180px;
   object-fit: cover;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -65,7 +64,7 @@ body {
   width: 100%;
   min-height: 10vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: center;
   font-size: 12px;
 }
